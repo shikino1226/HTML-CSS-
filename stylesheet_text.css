@@ -1,0 +1,693 @@
+.header_f{
+  position: absolute;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2px;
+  flex-basis: 20px;
+  margin-top: 10px;
+  text-align: center;
+  width: 50%;
+}
+.img1_1{
+  position: absolute;
+  left: 0px;
+  width: 150px;
+  height: 20px;
+}
+.box_1{
+  text-decoration: none;
+  color: black;
+}
+.counseling1{
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 45px;
+  flex-basis: 100px;
+  font-size: 10px;
+  padding-top: 7px;
+}
+#main{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 700px;
+}
+.top{
+  position: relative;
+  top: 200px;
+  left:-1000px;
+  width:2200px;
+  height: 600px;
+  text-align: left;
+}
+.top_img{
+  position: relative;
+  top: -50px;
+  float: right;
+}
+.no1{
+  position: absolute;
+  width: 150px;
+  top: 0px;
+  left: 1300px;
+}
+.counseling2{
+  position: absolute;
+  left: 1000px;
+  top: 150px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 45px;
+  font-size: 15px;
+  padding: 20px 50px;
+}
+.potepan_black{
+  position: absolute;
+  left: 1000px;
+  top: -50px;
+}
+.bunsyo1{
+  position: absolute;
+  left: 1000px;
+  top: 0px;
+}
+.bunsyo1_1{
+  color: orange;
+}
+.bunsyo1_2{
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+}
+.gakuwari{
+  position:relative;
+  width: 2000px;
+  height: 500px;
+}
+
+.background_color{
+  position:absolute;
+  left:-1000px;
+  top:0px;
+  width:3000px;
+  height:500px;
+  background-color: orange;
+}
+.gakuwari1{
+  width:800px;
+  height:auto;
+  position:absolute;
+  left:500px;
+  margin-top: 30px;
+}
+.gakuwari2{
+  position: absolute;
+  top:300px;
+  left:1000px;
+  background-color: white;
+  color: orange;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 45px;
+}
+.text_2{
+  position:absolute;
+  left:500px;
+  top:200px;
+  width:200px;
+  color: aliceblue;
+  text-align: left;
+  font-size: 30px;
+
+}
+.text_3{
+  position:absolute;
+  left:500px;
+  top:300px;
+  width:400px;
+  color: aliceblue;
+  text-align: left;
+}
+.gakuwari_a{
+ position:absolute;
+ left:500px;
+}
+
+.border{
+  position:relative;
+  left: 325px;
+  border-bottom: 4px solid orange;
+  width: 50px;
+}
+/*ポテパンキャンプの特徴*/
+h4{
+  font-size: 30px;
+  background: #fffff0;
+  width: 80px;
+  height: 80px;
+  border-radius: 45px;
+  padding-top:20px;
+  position: relative;
+  left: 310px;
+  color: orange;
+}
+h3{
+  font-size: 30px;
+  padding-top: 30px;
+}
+.backcolor_1{
+  position: relative;
+  left: -150px;
+  top:-70px;
+  background-color:#fffff0;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 45px;
+}
+.orange{
+  font-size: 30px;
+  color: orange;
+}
+.backcolor_1_1{
+  position: relative;
+  left: 100px;
+  background-color: white;
+  width: 800px;
+  height: 750px;
+  border-radius: 45px;
+}
+.rei{
+  position:absolute;
+  left: 300px;
+  font-size: 25px;
+  border-bottom: 5px solid orange;
+  width: 200px;
+}
+.rei_f{
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  flex-basis: 50px;
+  position: relative;
+  top: 100px;
+}
+.rei_1{
+  width: 60px;
+  font-size: 5px;
+  justify-content: space-between;
+}
+.foto{
+  width: 200px;
+  font-size: 5px;
+}
+.backcolor_2{
+  position: relative;
+  left: -150px;
+  top:-70px;
+  background-color:#fffff0;
+  width: 1000px;
+  height: 700px;
+  border-radius: 45px;
+}
+.backcolor_2_1{
+  position: relative;
+  left: 100px;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  border-radius: 45px;
+}
+.profile_p{
+  position:relative;
+  top: 100px;
+  left: -150px;
+}
+.profile{
+  position: relative;
+  left: -150px;
+  top: 100px;
+}
+.text_1{
+  position: relative;
+  left: 500px;
+  top: -250px;
+  width: 250px;
+  text-align: left;
+}
+.backcolor_3{
+  position: relative;
+  left: -150px;
+  top:-70px;
+  background-color:#fffff0;
+  width: 1000px;
+  height: 500px;
+  border-radius: 45px;
+}
+.teacher{
+  display: flex;
+  justify-content: space-around;
+}
+.white_back{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  font-size: 5px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 45px;
+}
+.company_p{
+  width: 200px;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.icon{
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+.company{
+  float: right;
+  color: orange;
+  text-align: left;
+  padding-right: 30px;
+}
+.company_1{
+  float: right;
+  color: orange;
+  text-align: left;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.rails{
+  color: black;
+  font-size: 15px;
+}
+.hukidashi{
+  position: absolute;
+  top: 160px;
+  left: 30px;
+  content: "";
+  border-bottom: 15px solid #EEEEEE;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+.comment{
+  position: absolute;
+  top:170px;
+  width: 200px;
+  right: 10px;
+  background-color: #EEEEEE;
+  padding: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+.backcolor_4{
+  position: relative;
+  left: -150px;
+  top:-70px;
+  background-color:#fffff0;
+  width: 1000px;
+  height: 600px;
+  border-radius: 45px;
+}
+.backcolor_4_1{
+  position: absolute;
+  left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 25px;
+  width: 800px;
+  height: 400px;
+}
+.backcolor_5{
+  position: relative;
+  left: -150px;
+  top:-70px;
+  background-color:#fffff0;
+  width: 1000px;
+  height: 300px;
+  border-radius: 45px;
+}
+.backcolor_5_1{
+  position: absolute;
+  left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 25px;
+  width: 800px;
+  height: 120px;
+  justify-content: space-around;
+  z-index: 0;
+}
+.text5{
+  width: 100px;
+  font-size: 7px;
+}
+.text5_1{
+position: absolute;
+right: 0px;
+font-size: 7px;
+top: 80px;
+}
+.backcolor_6{
+  background-color: #EEEEEE;
+  margin: 0 -200%;
+  padding: 0 200%;
+  height: 500px;
+  position: relative;
+}
+.potepan_icon{
+  position: relative;
+  float: right;
+  left: -200px;
+  background-color:#EEEEEE;
+  z-index: 0;
+}
+.maru1{
+  position: absolute;
+  top: -300px;
+  font-weight: 900;
+  font-size: 300px;
+  color: #DDDDDD;
+}
+.maru2{
+  position: absolute;
+  top: -120px;
+  left: 50px;
+  font-size: 200px;
+  color: #EEEEEE;
+}
+.maru3{
+  position: absolute;
+  top: -81px;
+  font-size: 100px;
+  color: #DDDDDD;
+
+}
+.maru4{
+  position: absolute;
+  top: -83px;
+  left: 200px;
+  font-size: 100px;
+  color: #DDDDDD;
+
+}
+.maru5{
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  font-size: 50px;
+  color: #EEEEEE;
+}
+.maru6{
+  position: absolute;
+  top: 5px;
+  left: 225px;
+  font-size: 50px;
+  color: #EEEEEE;
+}
+.title_f{
+  position: relative;
+  left: 100px;
+  float: left;
+  z-index: 1;
+}
+.under{
+  position: relative;
+  left: 220px;
+}
+.career
+{
+  position: relative;
+  top: 200px;
+  background-color: white;
+  height: 150px;
+  width: 700px;
+}
+
+h6{
+  position: relative;
+  top: 50px;
+  left: -480px;
+  float: left;
+  color: black;
+}
+.course_1{
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  border: 1px solid red;
+  padding-left: 100px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  margin-top: 40px;
+  color: black;
+  font-weight: bold;
+}
+.course_2{
+  position: absolute;
+  left: 250px;
+  top:20px;
+  font-size: 15px;
+  width: 500px;
+  height: 150px;
+  color: red;
+  text-align: left;
+}
+#course_2_2{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 0px 20px;
+}
+.couese_2_3{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  text-decoration: none;
+  color: gray;
+}
+#kakko{
+  color: orange;
+}
+.course_botann{
+  text-decoration: none;
+  background-color: orange;
+  position: absolute;
+  border-radius: 45px;
+  padding: 0px 40px;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 1650px;
+}
+.course_botann:hover{
+  background-color: peachpuff;
+}
+.rails_career:hover{
+  color: orange;
+}
+.beige{
+  background-color: #FFFFF0;
+  margin: 0 -200%;
+  padding: 0 200%;
+  height: 50px;
+  padding-top: 20px;
+}
+.message_back_1{
+  background-color: #FFFFF0;
+  height: 600px;
+  margin: 0 -200%;
+  padding: 0 200%;
+}
+.message{
+  background-color: white;
+  position: relative;
+  top: 100px;
+  left: -80px;
+  height: 400px;
+  width: 700px;
+}
+.message1{
+  position: absolute;
+  top: -20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: orange;
+}
+.message2{
+  position: absolute;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 200px;
+  padding-top: 30px;
+}
+.message_picture{
+  position: absolute;
+  top: 100px;
+  left: 550px;
+}
+.border_a{
+  position: absolute;
+  top: -100px;
+  left: 400px;
+  width: 50px;
+  border-top: 5px solid orange;
+}
+/*受講生の声*/
+.voice_back{
+  position: relative;
+  left: -80px;
+  display: flex;
+  width: 900px;
+  justify-content: space-around;
+}
+.voice_img{
+  width: 250px;
+  height: auto;
+  transform: scale(1.3,1.3);
+  z-index: 0;
+}
+.voice_img:hover{
+  transform: scale(1.5,1.5);
+}
+.v_img{
+  width: 250px;
+  overflow: hidden;
+}
+.voice{
+  width: 250px;
+  text-align: left;
+  font-weight: bold;
+  margin: 10px;
+}
+.voice:hover{
+  color: orange;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.interview_f{
+  position: relative;
+  top: -295px;
+  left: -90px;
+  display: flex;
+  width: 900px;
+  justify-content: space-around;
+}
+.zensyoku_1{
+  text-align: left;
+  color: orange;
+  background: linear-gradient(180deg,rgba(46,60,46,0.2),rgba(46,60,46,1));
+  width: 250px;
+  padding: 40px 0px 10px 0px;
+}
+.rails_1{
+  text-decoration:underline 2px white;
+}
+
+.name_a{
+  color:white;
+  text-decoration: none;
+}
+.zensyoku_a{
+  color: white;
+  font-size: small;
+  text-decoration: none;
+}
+.zensyoku_2{
+  text-align: left;
+  color: orange;
+  background: linear-gradient(180deg,rgba(46,60,46,0.2),rgba(46,60,46,1));
+  width: 250px;
+  padding: 40px 0px 10px 0px;
+  z-index: 1;
+}
+.zensyoku_3{
+  text-align: left;
+  color: orange;
+  background: linear-gradient(180deg,rgba(46,60,46,0.2),rgba(46,60,46,1));
+  width: 250px;
+  padding: 40px 0px 10px 0px;
+  z-index: 1;
+}
+.interview_b{
+  position: relative;
+  top: -100px;
+  left: 250px;
+  width: 200px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border-radius: 45px;
+}
+.koe{
+  font-size: 15px;
+  color: white;
+}
+.footer_back{
+  background-color: orange;
+  padding: 0 200%;
+  margin: 0 -200%;
+  height: 400px;
+}
+.footer_back2{
+  position: relative;
+  background-color: orange;
+  height: 400px;
+  width: 1000px;
+  color: white;
+}
+.jusyo{
+  float: left;
+  width: 300px;
+}
+ul{
+  float: left;
+  margin-top: 30px;
+}
+.potepan_white{
+  width: 50%;
+  height: auto;
+  margin: 20px 0px 30px 20px;
+}
+.text_f1{
+  margin-left: 20px;
+}
+.sns{
+  width: 60px;
+  height: auto;
+  margin: 20px;
+}
+.sns:hover{
+  opacity: 0.6;
+}
+.text_f2{
+  font-size: xx-small;
+  margin: 20px;
+}
+.footer_block{
+  float: left;
+  width: 300px;
+}
+.text_f3{
+  display: block;
+  color: white;
+  padding-top: 40px;
+}
+.potepan_stamp{
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+}
