@@ -26,7 +26,7 @@
 }
 
   .menu-btn {
-      position: fixed;
+      position: absolute;
       top: 10px;
       right: 10px;
       display: flex;
@@ -220,7 +220,7 @@
 .gakuwari2{
   position: absolute;
   top: 400px;
-  left: 0px;
+  left: 30px;
 }
 .text_2{
   position:absolute;
@@ -246,6 +246,7 @@
 }
 h5{
   position: relative;
+  font-size: 10px;
   width: 300px;
 }
 .border{
@@ -363,12 +364,13 @@ h3{
   top:-30px;
   background-color:#fffff0;
   width: 30%;
-  height: 500px;
+  height: 1200px;
   border-radius: 45px;
 }
 .teacher{
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  position: relative;
+  left: 20px;
 }
 .white_back{
   position: relative;
@@ -457,6 +459,7 @@ h3{
 }
 .backcolor_5_1{
   position: absolute;
+  left: 25%;
   background-color: white;
   border-radius: 25px;
   width: 50%;
@@ -516,7 +519,7 @@ h6{
 .course_1{
   position: absolute;
   top: -10px;
-  left: 20px;
+  left: 40px;
   border: 1px solid red;
   padding: 20px;
   color: black;
@@ -527,8 +530,9 @@ h6{
   left: 0px;
   top:150px;
   font-size: 15px;
-  width: 500px;
+  width: 80%;
   height: 150px;
+  margin-left: 10%;
   color: red;
   text-align: left;
 }
@@ -556,7 +560,7 @@ h6{
   padding: 0px 40px;
   color: white;
   width: 50%;
-  top: 450px;
+  top: 510px;
   left: 30px;
 }
 .course_botann:hover{
@@ -610,33 +614,146 @@ h6{
 }
 /*受講生の声*/
 .voice_back{
+  display: block;
   position: relative;
-  display: flex;
-  wrap: wrap;
-  width: 100%;
-  justify-content: space-around;
+  width: 350px;
+  left: 30px;
 }
-.voice_back_2{
-  position: relative;
-  left: -320px;
+.voice_img{
+  width: 250px;
+  height: auto;
+  transform: scale(1.3,1.3);
+  z-index: 0;
+}
+.voice_img:hover{
+  transform: scale(1.5,1.5);
+}
+.v_img{
+  width: 250px;
+  overflow: hidden;
+}
+.voice{
+  width: 250px;
+  text-align: left;
+  font-weight: bold;
+  margin: 10px;
+}
+.voice:hover{
+  color: orange;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.rails_1{
+  text-decoration:underline 2px white;
+}
+
+.name_a{
+  color:white;
+  text-decoration: none;
+}
+.zensyoku_a{
+  position: absolute;
+  color: white;
+  font-size: small;
+  text-decoration: none;
+}
+.zensyoku_b{
+  font-size: 12px;
+}
+.zensyoku_1{
+  position: absolute;
+  top: 80px;
+  text-align: left;
+  color: orange;
+  background: linear-gradient(180deg,rgba(46,60,46,0.2),rgba(46,60,46,1));
+  width: 250px;
+  padding: 40px 0px 10px 0px;
+}
+.zensyoku_2{
+  position: absolute;
   top: 400px;
+  text-align: left;
+  color: orange;
+  background: linear-gradient(180deg,rgba(46,60,46,0.2),rgba(46,60,46,1));
+  width: 250px;
+  padding: 40px 0px 10px 0px;
+  z-index: 1;
 }
-.voice_back_3{
-  position: relative;
-  top: 800px;
-  left: -650px;
+.zensyoku_3{
+  position: absolute;
+  top: 780px;
+  text-align: left;
+  color: orange;
+  background: linear-gradient(180deg,rgba(46,60,46,0.2),rgba(46,60,46,1));
+  width: 250px;
+  padding: 40px 0px 10px 0px;
+  z-index: 1;
+
 }
 
 
 .footer_back{
   position: relative;
-  top: 800px;
   background-color: orange;
-  width: 100%;
+  width: 80%;
   height: 1000px;
+  text-align: center;
+}
+.footer_back2{
+  position: absolute;
+  background-color: orange;
+  height: 1000px;
+  width: 100%;
+  color: white;
+}
+.jusyo{
+  position: absolute;
+  top: 600px;
+  width: 80%;
+  border-top: 2px solid white;
+}
+ul{
+  float: left;
+  margin-top: 30px;
+}
+.potepan_white{
+  width: 80%;
+  height: auto;
+  margin: 20px 0px 30px 20px;
+}
+.text_f1{
+  margin-left: 20px;
+}
+.sns{
+  width: 50px;
+  height: auto;
+  margin: 20px;
+}
+.sns:hover{
+  opacity: 0.6;
+}
+.text_f2{
+  font-size: xx-small;
+  margin: 20px;
+}
+.footer_block{
+  float: left;
+  width: 80%;
+}
+.footer_block2{
+  float: left;
+  width: 80%;
+}
+.text_f3{
+  display: block;
+  color: white;
+  padding-top: 40px;
 }
 .potepan_stamp{
   position: absolute;
-  bottom: -500px;
+  top: 50%;
+  left: 50px;
 }
 }
